@@ -5,7 +5,7 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 The original dataset is divided in two datasets named "test" and "train". From each of these I have used X, y and subject files, and also the features.txt. After merging the X files into a dataframe with 10299 observation of 561 variables, I have selected only the variables containing "mean" or "std", which means 79 variables.
 I have completed the above dataframe with two other variables: subject and activity.
-Finally, this dataframe was grouped by subject and by activity and summarized, resulting a dataframe with 35 observations and 81 variables.
+Finally, this dataframe was grouped by subject and by activity and summarized, resulting a dataframe with 180 observations and 81 variables.
 The first two variables are subjects and activity, used for grouping, for the other 79 the average was computed. In each row the 79 variables represents the average corresponding to one subject for one activity.
 The list of the variables are as follows:
 1 subjects
